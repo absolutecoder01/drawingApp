@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  background-color: #45424d4b;
+  cursor: pointer;
+
+  .dotify-window {
+    width: 600px;
+    height: 800px;
+    background-color: #fff;
+    cursor: auto;
+
+    .close-btn {
+      width: 30px;
+      height: 30px;
+      font-size: 28px;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.33s;
+      }
+    }
+
+    .original-image,
+    canvas {
+      border: 1px solid black;
+      width: 300px;
+      height: 200px;
+    }
+  }
+}

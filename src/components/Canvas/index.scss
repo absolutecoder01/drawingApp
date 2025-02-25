@@ -1,0 +1,40 @@
+.canvas-container {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--main);
+  position: relative;
+
+  .canvas {
+    background-color: #141414;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+
+    &.full {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .fullscreen-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 16px;
+    z-index: 3;
+    background-color: #fff;
+
+    &:hover {
+      background-color: rgb(175, 175, 175);
+    }
+  }
+}

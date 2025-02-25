@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or "ES2015"
+    "lib": ["ES2015", "DOM"], // Include ECMAScript 2015 and browser APIs
+    "strict": true,
+    "module": "ES6",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,36 @@
+.file-input-container {
+  margin-bottom: 12px;
+  width: 175px;
+  height: 32px;
+
+  .file-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-bg);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 175px;
+    height: 32px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: var(--btn-hover);
+    }
+  }
+
+  .file-input-text {
+    display: none;
+    width: 175px;
+    height: 32px;
+  }
+
+  .text {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
