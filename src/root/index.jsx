@@ -1,6 +1,6 @@
 import { useEffect, useState, createContext } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Comet from 'src/components/Comet';
+import Comet from '../components/Comet';
 
 export const GlobalContext = createContext({
   isLightTheme: true,
