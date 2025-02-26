@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES6", // or "ES2015"
-    "lib": ["ES2015", "DOM"], // Include ECMAScript 2015 and browser APIs
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
     "strict": true,
-    "module": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
