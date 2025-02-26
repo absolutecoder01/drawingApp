@@ -1,5 +1,5 @@
 .dropdown {
-  width: 150px;
+  width: 100px;
   cursor: pointer;
 
   .btn {
@@ -12,13 +12,12 @@
   }
 
   .dropdown-menu {
-    height: 130px;
+    height: 160px;
     background-color: #f4f4f5;
   }
 
   .flag {
-    width: 35px;
-    height: 30px;
-    display: inline-block;
+    width: 40px;
+    height: 35px;
   }
 }

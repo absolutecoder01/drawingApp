@@ -24,7 +24,7 @@ export const FileInput = ({ onChange }) => {
       />
       {imageSelected && (
         <span className='text' style={{}}>
-         
+          Image Selected
         </span>
       )}
     </div>
